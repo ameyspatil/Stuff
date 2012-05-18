@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite skipped="0" name="RegressionTesting" failures="1" assertions="42" tests="8" time="360.342899" errors="1">
+  <testcase name="test_facebooklogin" assertions="3" time="26.048183">
+  </testcase>
+  <testcase name="test_footerlinks" assertions="6" time="24.053049">
+  </testcase>
+  <testcase name="test_jobapplications" assertions="3" time="136.852357">
+    <failure type="Selenium::WebDriver::Error::NoSuchElementError" message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;sel_Jobseeker_UserDefined6ID&quot;}...">
+Unable to locate element: {"method":"id","selector":"sel_Jobseeker_UserDefined6ID"}
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.15.0', revision: '15105', time: '2011-12-08 09:56:25'
+System info: os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_26'
+Driver info: driver.version: EventFiringWebDriver (org.openqa.selenium.NoSuchElementException) (Selenium::WebDriver::Error::NoSuchElementError)
+[remote server] sun.reflect.NativeConstructorAccessorImpl():-2:in `newInstance0'
+[remote server] sun.reflect.NativeConstructorAccessorImpl():-1:in `newInstance'
+[remote server] sun.reflect.DelegatingConstructorAccessorImpl():-1:in `newInstance'
+[remote server] java.lang.reflect.Constructor():-1:in `newInstance'
+[remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):147:in `createThrowable'
+[remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):113:in `throwIfResponseFailed'
+[remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):424:in `execute'
+[remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):210:in `findElement'
+[remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):227:in `findElementById'
+[remote server] org.openqa.selenium.By$ById(By.java):216:in `findElement'
+[remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):202:in `findElement'
+[remote server] sun.reflect.GeneratedMethodAccessor22():-1:in `invoke'
+[remote server] sun.reflect.DelegatingMethodAccessorImpl():-1:in `invoke'
+[remote server] java.lang.reflect.Method():-1:in `invoke'
+[remote server] org.openqa.selenium.support.events.EventFiringWebDriver$2(EventFiringWebDriver.java):99:in `invoke'
+[remote server] $Proxy1():-1:in `findElement'
+[remote server] org.openqa.selenium.support.events.EventFiringWebDriver(EventFiringWebDriver.java):178:in `findElement'
+[remote server] org.openqa.selenium.remote.server.handler.FindElement(FindElement.java):48:in `call'
+[remote server] org.openqa.selenium.remote.server.handler.FindElement(FindElement.java):1:in `call'
+[remote server] java.util.concurrent.FutureTask$Sync():-1:in `innerRun'
+[remote server] java.util.concurrent.FutureTask():-1:in `run'
+[remote server] java.util.concurrent.ThreadPoolExecutor$Worker():-1:in `runTask'
+[remote server] java.util.concurrent.ThreadPoolExecutor$Worker():-1:in `run'
+[remote server] java.lang.Thread():-1:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/response.rb:50:in `assert_ok'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:58:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:58:in `create_response'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/default.rb:64:in `request'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:39:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:450:in `raw_execute'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:428:in `execute'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:396:in `find_element_by'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:376:in `questions'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:359:in `each'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:359:in `questions'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:434:in `test_jobapplications'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:416:in `each'
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:416:in `test_jobapplications'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321    </failure>
+    <failure type="Test::Unit::AssertionFailedError" message="&lt;[]&gt; expected but was...">
+&lt;[]&gt; expected but was
+&lt;[#&lt;Test::Unit::AssertionFailedError: Questions page does not load.
+&lt;false&gt; is not true.&gt;]&gt;.
+
+diff:
+- []
++ [#&lt;Test::Unit::AssertionFailedError: Questions page does not load.
++ &lt;false&gt; is not true.&gt;] (Test::Unit::AssertionFailedError)
+/Users/ameypatil/Sites/qatests/scripts/ruby_scripts/dotcom/regression.rb:60:in `teardown'    </failure>
+  </testcase>
+  <testcase name="test_linkedinlogin" assertions="2" time="23.929393">
+  </testcase>
+  <testcase name="test_pagination" assertions="2" time="17.640383">
+  </testcase>
+  <testcase name="test_profileandapplications" assertions="13" time="53.422422">
+  </testcase>
+  <testcase name="test_recruiting" assertions="11" time="45.120045">
+  </testcase>
+  <testcase name="test_twitter" assertions="2" time="33.272657">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="16" tests="30" skipped="0" name="JobServiceRegression" assertions="460" time="19.835638" errors="0">
+  <testcase name="test_jobs_by_company_id_0" assertions="40" time="0.67934">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_1" assertions="1" time="0.677985">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Web Associate"&gt; expected to be =~
+&lt;/Research\ Telemarketing\ Representative/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_1'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_1'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_10" assertions="1" time="0.988449">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Director Sales Operations I-516874"&gt; expected to be =~
+&lt;/HPCS\ Cloud\ Support\ Technical\ Consultant\ \-\ 658594/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_10'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_10'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_11" assertions="40" time="0.462838">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_12" assertions="1" time="0.901246">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Medical Director, Product Leader - Infectious Disease Job"&gt; expected to be =~
+&lt;/Dutch\ Service\ Analyst/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_12'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_12'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_13" assertions="5" time="0.451539">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 3....">
+The title values are equal for 3.
+&lt;"MS/PhD Fulltime Recent College Graduate"&gt; expected to be =~
+&lt;/ST\ Group\ Grad\ Intern/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_13'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_13'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_14" assertions="1" time="0.569152">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Finance Office Assistant (Part-time)"&gt; expected to be =~
+&lt;/Jr\.\ Data\ Services\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_14'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_14'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_15" assertions="25" time="0.962552">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 8....">
+The title values are equal for 8.
+&lt;"Account Manager 1 NBM- Connecticut, Small Business"&gt; expected to be =~
+&lt;/Account\ Manager\ 1\-Kansas\ City,\ MO/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_15'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_15'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_16" assertions="4" time="0.165843">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_17" assertions="1" time="0.978498">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Capital Markets Market Risk Analyst"&gt; expected to be =~
+&lt;/Sr\ Tech\ Mgr\ \-\ Apps\ Prog/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_17'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_17'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_18" assertions="1" time="0.602397">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Accounting Manager"&gt; expected to be =~
+&lt;/Engineering\ Opportunities/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_18'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_18'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_19" assertions="40" time="0.823138">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_2" assertions="8" time="0.185669">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_20" assertions="40" time="0.613986">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_21" assertions="4" time="0.177073">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_22" assertions="28" time="0.387432">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_23" assertions="1" time="0.74477">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Product Manager- Women's Healthcare"&gt; expected to be =~
+&lt;/Senior\ Network\ Engineer\ /&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_23'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_23'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_24" assertions="9" time="0.611609">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 4....">
+The title values are equal for 4.
+&lt;"Client Success Manager"&gt; expected to be =~
+&lt;/Graphic\ Design\ Internship/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_24'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_24'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_25" assertions="1" time="0.67063">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Junior Revenue Accountant"&gt; expected to be =~
+&lt;/QA\ Software\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_25'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_25'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_26" assertions="1" time="2.967787">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"* Bilingual Retail Sales Associate*"&gt; expected to be =~
+&lt;/Engineer,\ RF\ Deployment/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_26'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_26'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_27" assertions="24" time="0.334807">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_28" assertions="8" time="0.184152">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_29" assertions="1" time="0.523049">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Success Manager"&gt; expected to be =~
+&lt;/QA\ Engineer\ /&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_29'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_29'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_3" assertions="40" time="0.464748">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_4" assertions="40" time="0.58014">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_5" assertions="40" time="0.420653">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_6" assertions="40" time="0.447837">
+  </testcase>
+  <testcase name="test_jobs_by_company_id_7" assertions="1" time="0.617863">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Product Manager - AWS CloudFront"&gt; expected to be =~
+&lt;/Sr\ Demand\ Planner,\ Kindle/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_7'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_7'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_8" assertions="1" time="0.886115">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Inbound Sales Specialist"&gt; expected to be =~
+&lt;/Systems\ Support\ Analyst\ 4/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_8'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_8'    </failure>
+  </testcase>
+  <testcase name="test_jobs_by_company_id_9" assertions="13" time="0.738664">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 5....">
+The title values are equal for 5.
+&lt;"Sr Mgr Engineering"&gt; expected to be =~
+&lt;/Operational\ Software\/Test\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_jobs_by_company_id_9'
+regression.rb:99:in `each'
+regression.rb:99:in `test_jobs_by_company_id_9'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite assertions="4" name="Ruby11" tests="1" failures="1" time="63.10711" errors="0" skipped="0">
+  <testcase assertions="4" name="test_step2" time="63.106949">
+    <failure type="Test::Unit::AssertionFailedError" message="The hey is displayed....">
+The hey is displayed.
+&lt;false&gt; is not true. (Test::Unit::AssertionFailedError)
+getreferredJIBE_IE.rb:130:in `test_step2'    </failure>
+  </testcase>
+  <system-out>
+Slept for 3 seconds now
+the action is done
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

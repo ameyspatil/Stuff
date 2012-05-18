@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite assertions="10" tests="1" failures="0" name="Ruby11" skipped="0" time="101.65299" errors="1">
+  <testcase assertions="10" name="test_ruby11" time="101.651651">
+    <failure type="Selenium::WebDriver::Error::TimeOutError" message="timed out after 30 seconds (The element could not be found (WARNING: The server did not provide any stacktrace information)...">
+timed out after 30 seconds (The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.15.0', revision: '15105', time: '2011-12-08 09:56:25'
+System info: os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_26'
+Driver info: driver.version: EventFiringWebDriver (org.openqa.selenium.NoSuchElementException))} (Selenium::WebDriver::Error::TimeOutError)
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/common/wait.rb:54:in `until'
+getreferredJIBE_Chrome.rb:119:in `test_ruby11'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+getreferredJIBE_Chrome.rb:146    </failure>
+  </testcase>
+  <system-out>
+fb_xdm_frame_http
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

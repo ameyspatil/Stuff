@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite assertions="3" name="RegressionTesting" failures="0" tests="4" time="6.744654" errors="0" skipped="0">
+  <testcase assertions="1" name="test_A new Test Company_100_jobapplication" time="0.467376">
+  </testcase>
+  <testcase assertions="1" name="test_AI Signal_168_jobapplication" time="0.125204">
+  </testcase>
+  <testcase assertions="1" name="test_ALL_170_jobapplication" time="0.110724">
+  </testcase>
+  <testcase name="test_AT&amp;T_22_jobapplication">
+  </testcase>
+  <system-out>
+Testing Company:"A new Test Company"
+Testing Company:"AI Signal"
+Testing Company:"ALL"
+Testing Company:"AT&amp;T"
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

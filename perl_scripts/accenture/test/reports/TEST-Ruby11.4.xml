@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite assertions="15" tests="1" failures="0" name="Ruby11" skipped="0" time="82.066508" errors="0">
+  <testcase assertions="15" name="test_ruby11" time="82.066074">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

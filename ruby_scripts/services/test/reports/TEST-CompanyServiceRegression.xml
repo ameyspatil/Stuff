@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" skipped="0" assertions="4" name="CompanyServiceRegression" time="0.18741" failures="0" errors="0">
+  <testcase assertions="4" name="test_company_by_name" time="0.186912">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" tests="8" skipped="0" name="JobServiceRegression" assertions="504" time="4.301968" errors="0">
+  <testcase name="test_job_by_limit_1" assertions="4" time="0.254647">
+  </testcase>
+  <testcase name="test_job_by_limit_10" assertions="40" time="0.486778">
+  </testcase>
+  <testcase name="test_job_by_limit_15" assertions="60" time="0.526239">
+  </testcase>
+  <testcase name="test_job_by_limit_20" assertions="80" time="0.670515">
+  </testcase>
+  <testcase name="test_job_by_limit_25" assertions="100" time="0.676349">
+  </testcase>
+  <testcase name="test_job_by_limit_30" assertions="100" time="0.701776">
+  </testcase>
+  <testcase name="test_job_by_limit_35" assertions="100" time="0.717435">
+  </testcase>
+  <testcase name="test_job_by_limit_5" assertions="20" time="0.267433">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

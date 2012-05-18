@@ -1,0 +1,9 @@
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: browserName
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: cssSelectorsEnabled
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: javascriptEnabled
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: nativeEvents
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: platform
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: rotatable
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: takesScreenshot
+[0503/165814:WARNING:webdriver_capabilities_parser.cc(97)] Ignoring unrecognized capability: version
+[0503/165818:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <b class="caret"></b>

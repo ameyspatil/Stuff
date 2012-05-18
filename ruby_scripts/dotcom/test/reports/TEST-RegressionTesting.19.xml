@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite skipped="0" name="RegressionTesting" failures="0" assertions="0" tests="1" time="30.461851" errors="0">
+  <testcase name="test_facebooklogin">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

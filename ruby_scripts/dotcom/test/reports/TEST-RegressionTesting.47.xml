@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" tests="1" assertions="1" name="RegressionTesting" time="94.469743" errors="0" skipped="0">
+  <testcase assertions="1" name="test_Verizon_159_jobapplication" time="93.031676">
+    <failure type="Test::Unit::AssertionFailedError" message="The Company: 159 for lead-system-consultant---system-analysis-and-programming-verizon-orangeburg-ny did not get all questions answered....">
+The Company: 159 for lead-system-consultant---system-analysis-and-programming-verizon-orangeburg-ny did not get all questions answered.
+&lt;true&gt; expected but was
+&lt;"false"&gt; (Test::Unit::AssertionFailedError)
+onejobforall.rb:145:in `connections'
+onejobforall.rb:191:in `test_Verizon_159_jobapplication'    </failure>
+  </testcase>
+  <system-out>
+Testing Company:"Verizon"
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

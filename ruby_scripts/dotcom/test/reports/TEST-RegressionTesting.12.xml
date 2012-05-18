@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" tests="1" assertions="0" name="RegressionTesting" time="22.275677" errors="1" skipped="0">
+  <testcase assertions="0" name="test_Warner Chilcott_30_jobapplication" time="19.503397">
+    <failure type="Selenium::WebDriver::Error::ElementNotVisibleError" message="Element must be displayed to click (WARNING: The server did not provide any stacktrace information)...">
+Element must be displayed to click (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: '2.15.0', revision: '15105', time: '2011-12-08 09:56:25'
+System info: os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver (org.openqa.selenium.ElementNotVisibleException) (Selenium::WebDriver::Error::ElementNotVisibleError)
+[remote server] sun.reflect.NativeConstructorAccessorImpl():-2:in `newInstance0'
+[remote server] sun.reflect.NativeConstructorAccessorImpl():-1:in `newInstance'
+[remote server] sun.reflect.DelegatingConstructorAccessorImpl():-1:in `newInstance'
+[remote server] java.lang.reflect.Constructor():-1:in `newInstance'
+[remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):147:in `createThrowable'
+[remote server] org.openqa.selenium.remote.ErrorHandler(ErrorHandler.java):113:in `throwIfResponseFailed'
+[remote server] org.openqa.selenium.remote.RemoteWebDriver(RemoteWebDriver.java):424:in `execute'
+[remote server] org.openqa.selenium.remote.RemoteWebElement(RemoteWebElement.java):231:in `execute'
+[remote server] org.openqa.selenium.remote.RemoteWebElement(RemoteWebElement.java):72:in `click'
+[remote server] sun.reflect.GeneratedMethodAccessor35():-1:in `invoke'
+[remote server] sun.reflect.DelegatingMethodAccessorImpl():-1:in `invoke'
+[remote server] java.lang.reflect.Method():-1:in `invoke'
+[remote server] org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1(EventFiringWebDriver.java):325:in `invoke'
+[remote server] $Proxy2():-1:in `click'
+[remote server] org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement(EventFiringWebDriver.java):338:in `click'
+[remote server] sun.reflect.GeneratedMethodAccessor35():-1:in `invoke'
+[remote server] sun.reflect.DelegatingMethodAccessorImpl():-1:in `invoke'
+[remote server] java.lang.reflect.Method():-1:in `invoke'
+[remote server] org.openqa.selenium.remote.server.KnownElements$1(KnownElements.java):62:in `invoke'
+[remote server] $Proxy3():-1:in `click'
+[remote server] org.openqa.selenium.remote.server.handler.ClickElement(ClickElement.java):30:in `call'
+[remote server] org.openqa.selenium.remote.server.handler.ClickElement(ClickElement.java):1:in `call'
+[remote server] java.util.concurrent.FutureTask$Sync():-1:in `innerRun'
+[remote server] java.util.concurrent.FutureTask():-1:in `run'
+[remote server] java.util.concurrent.ThreadPoolExecutor$Worker():-1:in `runTask'
+[remote server] java.util.concurrent.ThreadPoolExecutor$Worker():-1:in `run'
+[remote server] java.lang.Thread():-1:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/response.rb:50:in `assert_ok'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:58:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:58:in `create_response'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/default.rb:64:in `request'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/http/common.rb:39:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:450:in `raw_execute'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:428:in `execute'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/remote/bridge.rb:264:in `clickElement'
+/opt/local/lib/ruby/gems/1.8/gems/selenium-webdriver-2.15.0/lib/selenium/webdriver/common/element.rb:34:in `click'
+onejobforall.rb:72:in `profile_edit'
+onejobforall.rb:182:in `test_Warner Chilcott_30_jobapplication'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321    </failure>
+  </testcase>
+  <system-out>
+Testing Company:"Warner Chilcott"
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

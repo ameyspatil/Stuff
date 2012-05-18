@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="11" tests="50" skipped="0" name="CompanyServiceRegression" assertions="869" time="9.428286" errors="0">
+  <testcase name="test_companies_batch_read" assertions="8" time="0.230532">
+  </testcase>
+  <testcase name="test_companies_by_limit_1" assertions="4" time="0.192591">
+  </testcase>
+  <testcase name="test_companies_by_limit_10" assertions="40" time="0.247615">
+  </testcase>
+  <testcase name="test_companies_by_limit_15" assertions="60" time="0.254061">
+  </testcase>
+  <testcase name="test_companies_by_limit_20" assertions="80" time="0.254535">
+  </testcase>
+  <testcase name="test_companies_by_limit_25" assertions="87" time="0.320003">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:303:in `test_companies_by_limit_25'
+regression.rb:300:in `each'
+regression.rb:300:in `test_companies_by_limit_25'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_30" assertions="87" time="0.20284">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:303:in `test_companies_by_limit_30'
+regression.rb:300:in `each'
+regression.rb:300:in `test_companies_by_limit_30'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_35" assertions="87" time="0.202341">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:303:in `test_companies_by_limit_35'
+regression.rb:300:in `each'
+regression.rb:300:in `test_companies_by_limit_35'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_5" assertions="20" time="0.219049">
+  </testcase>
+  <testcase name="test_companies_by_offset_100" assertions="3" time="0.214145">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 14....">
+The company code values are equal for 14.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:286:in `test_companies_by_offset_100'
+regression.rb:283:in `each'
+regression.rb:283:in `test_companies_by_offset_100'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_14" assertions="31" time="0.201658">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 88....">
+The company code values are equal for 88.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:286:in `test_companies_by_offset_14'
+regression.rb:283:in `each'
+regression.rb:283:in `test_companies_by_offset_14'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_4" assertions="40" time="0.200883">
+  </testcase>
+  <testcase name="test_companies_by_offset_50" assertions="40" time="0.19304">
+  </testcase>
+  <testcase name="test_companies_by_offset_53" assertions="40" time="0.194625">
+  </testcase>
+  <testcase name="test_companies_by_offset_68" assertions="23" time="0.202099">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 68....">
+The company code values are equal for 68.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:286:in `test_companies_by_offset_68'
+regression.rb:283:in `each'
+regression.rb:283:in `test_companies_by_offset_68'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_72" assertions="7" time="0.193577">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 50....">
+The company code values are equal for 50.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:286:in `test_companies_by_offset_72'
+regression.rb:283:in `each'
+regression.rb:283:in `test_companies_by_offset_72'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_88" assertions="3" time="0.191723">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 14....">
+The company code values are equal for 14.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:286:in `test_companies_by_offset_88'
+regression.rb:283:in `each'
+regression.rb:283:in `test_companies_by_offset_88'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_sort" assertions="88" time="0.195873">
+  </testcase>
+  <testcase name="test_company_by_id_11" assertions="4" time="0.168775">
+  </testcase>
+  <testcase name="test_company_by_id_14" assertions="4" time="0.169052">
+  </testcase>
+  <testcase name="test_company_by_id_15" assertions="4" time="0.169748">
+  </testcase>
+  <testcase name="test_company_by_id_16" assertions="4" time="0.171168">
+  </testcase>
+  <testcase name="test_company_by_id_18" assertions="4" time="0.170419">
+  </testcase>
+  <testcase name="test_company_by_id_2" assertions="4" time="0.168356">
+  </testcase>
+  <testcase name="test_company_by_id_20" assertions="4" time="0.168569">
+  </testcase>
+  <testcase name="test_company_by_id_21" assertions="4" time="0.174219">
+  </testcase>
+  <testcase name="test_company_by_id_22" assertions="4" time="0.170784">
+  </testcase>
+  <testcase name="test_company_by_id_23" assertions="4" time="0.168573">
+  </testcase>
+  <testcase name="test_company_by_id_24" assertions="4" time="0.16946">
+  </testcase>
+  <testcase name="test_company_by_id_25" assertions="4" time="0.19043">
+  </testcase>
+  <testcase name="test_company_by_id_26" assertions="4" time="0.167648">
+  </testcase>
+  <testcase name="test_company_by_id_27" assertions="4" time="0.169617">
+  </testcase>
+  <testcase name="test_company_by_id_28" assertions="3" time="0.168747">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 28....">
+The company code values are equal for 28.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:259:in `test_company_by_id_28'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_29" assertions="3" time="0.169224">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 29....">
+The company code values are equal for 29.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:259:in `test_company_by_id_29'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_3" assertions="4" time="0.170406">
+  </testcase>
+  <testcase name="test_company_by_id_30" assertions="4" time="0.168831">
+  </testcase>
+  <testcase name="test_company_by_id_31" assertions="4" time="0.16993">
+  </testcase>
+  <testcase name="test_company_by_id_32" assertions="4" time="0.169298">
+  </testcase>
+  <testcase name="test_company_by_id_33" assertions="4" time="0.181927">
+  </testcase>
+  <testcase name="test_company_by_id_34" assertions="3" time="0.168832">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 34....">
+The company code values are equal for 34.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:259:in `test_company_by_id_34'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_35" assertions="4" time="0.168982">
+  </testcase>
+  <testcase name="test_company_by_id_36" assertions="4" time="0.167557">
+  </testcase>
+  <testcase name="test_company_by_id_4" assertions="4" time="0.170912">
+  </testcase>
+  <testcase name="test_company_by_id_5" assertions="4" time="0.168586">
+  </testcase>
+  <testcase name="test_company_by_id_6" assertions="4" time="0.170894">
+  </testcase>
+  <testcase name="test_company_by_id_7" assertions="4" time="0.170372">
+  </testcase>
+  <testcase name="test_company_by_id_8" assertions="4" time="0.170466">
+  </testcase>
+  <testcase name="test_company_by_id_9" assertions="4" time="0.168202">
+  </testcase>
+  <testcase name="test_company_by_name" assertions="4" time="0.170065">
+  </testcase>
+  <testcase name="test_connection" assertions="0" time="0.056645">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

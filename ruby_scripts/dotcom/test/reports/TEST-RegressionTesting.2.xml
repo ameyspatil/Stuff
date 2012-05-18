@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" assertions="7" name="RegressionTesting" tests="1" time="35.294126" errors="0" skipped="0">
+  <testcase assertions="7" name="test_footerlinks" time="35.293987">
+    <failure type="Test::Unit::AssertionFailedError" message="&lt;[]&gt; expected but was...">
+&lt;[]&gt; expected but was
+&lt;[#&lt;Test::Unit::AssertionFailedError: The Jibe Commitment Page loads.
+&lt;false&gt; is not true.&gt;]&gt;.
+
+diff:
+- []
++ [#&lt;Test::Unit::AssertionFailedError: The Jibe Commitment Page loads.
++ &lt;false&gt; is not true.&gt;] (Test::Unit::AssertionFailedError)
+regression.rb:60:in `teardown'    </failure>
+  </testcase>
+  <system-out>
+inside rescue
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

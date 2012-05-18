@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="5" tests="50" skipped="0" name="CompanyServiceRegression" assertions="247" time="10.286226" errors="8">
+  <testcase name="test_companies_batch_read" assertions="8" time="0.241009">
+  </testcase>
+  <testcase name="test_companies_by_limit_1" assertions="0" time="0.210604">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_1'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_10" assertions="0" time="0.273339">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_10'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_15" assertions="0" time="0.275895">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_15'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_20" assertions="0" time="0.281984">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_20'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_25" assertions="0" time="0.280645">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_25'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_30" assertions="0" time="0.219919">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_30'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_35" assertions="0" time="0.245254">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_35'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_5" assertions="0" time="0.213279">
+    <failure type="ArgumentError" message="wrong number of arguments (1 for 0)">
+wrong number of arguments (1 for 0) (ArgumentError)
+regression.rb:297:in `min'
+regression.rb:297:in `test_companies_by_limit_5'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:342    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_100" assertions="3" time="0.218064">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 100....">
+The company code values are equal for 100.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:284:in `test_companies_by_offset_100'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_offset_14" assertions="4" time="0.227335">
+  </testcase>
+  <testcase name="test_companies_by_offset_4" assertions="4" time="0.217805">
+  </testcase>
+  <testcase name="test_companies_by_offset_50" assertions="4" time="0.21882">
+  </testcase>
+  <testcase name="test_companies_by_offset_53" assertions="4" time="0.218609">
+  </testcase>
+  <testcase name="test_companies_by_offset_68" assertions="4" time="0.210949">
+  </testcase>
+  <testcase name="test_companies_by_offset_72" assertions="4" time="0.219517">
+  </testcase>
+  <testcase name="test_companies_by_offset_88" assertions="3" time="0.215626">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 88....">
+The company code values are equal for 88.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:284:in `test_companies_by_offset_88'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_sort" assertions="88" time="0.214331">
+  </testcase>
+  <testcase name="test_company_by_id_11" assertions="4" time="0.189359">
+  </testcase>
+  <testcase name="test_company_by_id_14" assertions="4" time="0.188658">
+  </testcase>
+  <testcase name="test_company_by_id_15" assertions="4" time="0.186822">
+  </testcase>
+  <testcase name="test_company_by_id_16" assertions="4" time="0.186717">
+  </testcase>
+  <testcase name="test_company_by_id_18" assertions="4" time="0.184593">
+  </testcase>
+  <testcase name="test_company_by_id_2" assertions="4" time="0.182707">
+  </testcase>
+  <testcase name="test_company_by_id_20" assertions="4" time="0.186356">
+  </testcase>
+  <testcase name="test_company_by_id_21" assertions="4" time="0.180561">
+  </testcase>
+  <testcase name="test_company_by_id_22" assertions="4" time="0.184804">
+  </testcase>
+  <testcase name="test_company_by_id_23" assertions="4" time="0.185064">
+  </testcase>
+  <testcase name="test_company_by_id_24" assertions="4" time="0.185856">
+  </testcase>
+  <testcase name="test_company_by_id_25" assertions="4" time="0.186926">
+  </testcase>
+  <testcase name="test_company_by_id_26" assertions="4" time="0.224242">
+  </testcase>
+  <testcase name="test_company_by_id_27" assertions="4" time="0.18081">
+  </testcase>
+  <testcase name="test_company_by_id_28" assertions="3" time="0.17987">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 28....">
+The company code values are equal for 28.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:258:in `test_company_by_id_28'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_29" assertions="3" time="0.186893">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 29....">
+The company code values are equal for 29.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:258:in `test_company_by_id_29'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_3" assertions="4" time="0.188639">
+  </testcase>
+  <testcase name="test_company_by_id_30" assertions="4" time="0.182885">
+  </testcase>
+  <testcase name="test_company_by_id_31" assertions="4" time="0.178087">
+  </testcase>
+  <testcase name="test_company_by_id_32" assertions="4" time="0.188256">
+  </testcase>
+  <testcase name="test_company_by_id_33" assertions="4" time="0.190242">
+  </testcase>
+  <testcase name="test_company_by_id_34" assertions="3" time="0.190123">
+    <failure type="Test::Unit::AssertionFailedError" message="The company code values are equal for 34....">
+The company code values are equal for 34.
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:258:in `test_company_by_id_34'    </failure>
+  </testcase>
+  <testcase name="test_company_by_id_35" assertions="4" time="0.178471">
+  </testcase>
+  <testcase name="test_company_by_id_36" assertions="4" time="0.182053">
+  </testcase>
+  <testcase name="test_company_by_id_4" assertions="4" time="0.189428">
+  </testcase>
+  <testcase name="test_company_by_id_5" assertions="4" time="0.184652">
+  </testcase>
+  <testcase name="test_company_by_id_6" assertions="4" time="0.184028">
+  </testcase>
+  <testcase name="test_company_by_id_7" assertions="4" time="0.187853">
+  </testcase>
+  <testcase name="test_company_by_id_8" assertions="4" time="0.179612">
+  </testcase>
+  <testcase name="test_company_by_id_9" assertions="4" time="0.182829">
+  </testcase>
+  <testcase name="test_company_by_name" assertions="4" time="0.181013">
+  </testcase>
+  <testcase name="test_connection" assertions="0" time="0.133799">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

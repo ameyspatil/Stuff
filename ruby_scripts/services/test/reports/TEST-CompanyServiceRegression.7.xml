@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="3" tests="8" skipped="0" name="CompanyServiceRegression" assertions="465" time="2.329082" errors="0">
+  <testcase name="test_companies_by_limit_1" assertions="4" time="0.211276">
+  </testcase>
+  <testcase name="test_companies_by_limit_10" assertions="40" time="0.28394">
+  </testcase>
+  <testcase name="test_companies_by_limit_15" assertions="60" time="0.272108">
+  </testcase>
+  <testcase name="test_companies_by_limit_20" assertions="80" time="0.28308">
+  </testcase>
+  <testcase name="test_companies_by_limit_25" assertions="87" time="0.507276">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:302:in `test_companies_by_limit_25'
+regression.rb:298:in `each'
+regression.rb:298:in `test_companies_by_limit_25'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_30" assertions="87" time="0.279882">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:302:in `test_companies_by_limit_30'
+regression.rb:298:in `each'
+regression.rb:298:in `test_companies_by_limit_30'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_35" assertions="87" time="0.281214">
+    <failure type="Test::Unit::AssertionFailedError" message="The code values are equal for ....">
+The code values are equal for .
+&lt;nil&gt; expected to be =~
+&lt;nil&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:302:in `test_companies_by_limit_35'
+regression.rb:298:in `each'
+regression.rb:298:in `test_companies_by_limit_35'    </failure>
+  </testcase>
+  <testcase name="test_companies_by_limit_5" assertions="20" time="0.208322">
+  </testcase>
+  <system-out>
+4
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+30
+32
+36
+40
+42
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+30
+32
+36
+40
+42
+44
+46
+48
+50
+52
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+30
+32
+36
+40
+42
+44
+46
+48
+50
+52
+54
+56
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+30
+32
+36
+40
+42
+44
+46
+48
+50
+52
+54
+56
+4
+6
+8
+10
+12
+14
+16
+18
+22
+28
+30
+32
+36
+40
+42
+44
+46
+48
+50
+52
+54
+56
+4
+6
+8
+10
+12
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

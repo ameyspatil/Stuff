@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite assertions="5" tests="2" failures="0" skipped="0" name="RegressionTesting" time="11.820384" errors="0">
+  <testcase assertions="0" name="test_1test1" time="2.000561">
+  </testcase>
+  <testcase name="test_profile">
+  </testcase>
+  <system-out>
+sleeping for 5 now
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

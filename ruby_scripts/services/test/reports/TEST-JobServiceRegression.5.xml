@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="16" tests="30" skipped="0" name="JobServiceRegression" assertions="460" time="13.237116" errors="6">
+  <testcase name="test_job_by_company_id_0" assertions="40" time="0.667583">
+  </testcase>
+  <testcase name="test_job_by_company_id_1" assertions="1" time="0.479547">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Web Associate"&gt; expected to be =~
+&lt;/Research\ Telemarketing\ Representative/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_1'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_1'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_10" assertions="1" time="0.661333">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Director Sales Operations I-516874"&gt; expected to be =~
+&lt;/HPCS\ Cloud\ Support\ Technical\ Consultant\ \-\ 658594/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_10'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_10'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_11" assertions="40" time="0.377195">
+  </testcase>
+  <testcase name="test_job_by_company_id_12" assertions="1" time="0.440233">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Medical Director, Product Leader - Infectious Disease Job"&gt; expected to be =~
+&lt;/Dutch\ Service\ Analyst/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_12'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_12'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_13" assertions="5" time="0.373008">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 3....">
+The title values are equal for 3.
+&lt;"MS/PhD Fulltime Recent College Graduate"&gt; expected to be =~
+&lt;/ST\ Group\ Grad\ Intern/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_13'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_13'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_14" assertions="1" time="0.427445">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Finance Office Assistant (Part-time)"&gt; expected to be =~
+&lt;/Jr\.\ Data\ Services\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_14'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_14'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_15" assertions="25" time="0.500941">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 8....">
+The title values are equal for 8.
+&lt;"Account Manager 1 NBM- Connecticut, Small Business"&gt; expected to be =~
+&lt;/Account\ Manager\ 1\-Kansas\ City,\ MO/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_15'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_15'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_16" assertions="4" time="0.160645">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_16'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_16'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_17" assertions="1" time="0.438184">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Capital Markets Market Risk Analyst"&gt; expected to be =~
+&lt;/Sr\ Tech\ Mgr\ \-\ Apps\ Prog/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_17'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_17'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_18" assertions="1" time="0.47476">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Accounting Manager"&gt; expected to be =~
+&lt;/Engineering\ Opportunities/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_18'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_18'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_19" assertions="40" time="0.42741">
+  </testcase>
+  <testcase name="test_job_by_company_id_2" assertions="8" time="0.16302">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_2'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_2'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_20" assertions="40" time="0.43939">
+  </testcase>
+  <testcase name="test_job_by_company_id_21" assertions="4" time="0.162619">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_21'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_21'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_22" assertions="28" time="0.373918">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_22'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_22'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_23" assertions="1" time="0.496718">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Product Manager- Women's Healthcare"&gt; expected to be =~
+&lt;/Senior\ Network\ Engineer\ /&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_23'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_23'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_24" assertions="9" time="0.412293">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 4....">
+The title values are equal for 4.
+&lt;"Client Success Manager"&gt; expected to be =~
+&lt;/Graphic\ Design\ Internship/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_24'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_24'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_25" assertions="1" time="0.901355">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Junior Revenue Accountant"&gt; expected to be =~
+&lt;/QA\ Software\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_25'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_25'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_26" assertions="1" time="0.528714">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"* Bilingual Retail Sales Associate*"&gt; expected to be =~
+&lt;/Engineer,\ RF\ Deployment/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_26'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_26'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_27" assertions="24" time="0.266694">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_27'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_27'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_28" assertions="8" time="0.160694">
+    <failure type="NoMethodError" message="undefined method `[]' for nil:NilClass">
+undefined method `[]' for nil:NilClass (NoMethodError)
+regression.rb:100:in `test_job_by_company_id_28'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_28'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:452:in `run_test'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testcase.rb:320:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:38:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/testsuite.rb:37:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:82:in `start_mediator'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/console/testrunner.rb:52:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:304:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit/autorunner.rb:52:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/test-unit-2.0.9/lib/test/unit.rb:321
+regression.rb:345    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_29" assertions="1" time="0.424643">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Success Manager"&gt; expected to be =~
+&lt;/QA\ Engineer\ /&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_29'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_29'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_3" assertions="40" time="0.42126">
+  </testcase>
+  <testcase name="test_job_by_company_id_4" assertions="40" time="0.437753">
+  </testcase>
+  <testcase name="test_job_by_company_id_5" assertions="40" time="0.371993">
+  </testcase>
+  <testcase name="test_job_by_company_id_6" assertions="40" time="0.426341">
+  </testcase>
+  <testcase name="test_job_by_company_id_7" assertions="1" time="0.551169">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Product Manager - AWS CloudFront"&gt; expected to be =~
+&lt;/Sr\ Demand\ Planner,\ Kindle/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_7'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_7'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_8" assertions="1" time="0.612477">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 2....">
+The title values are equal for 2.
+&lt;"Inbound Sales Specialist"&gt; expected to be =~
+&lt;/Systems\ Support\ Analyst\ 4/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_8'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_8'    </failure>
+  </testcase>
+  <testcase name="test_job_by_company_id_9" assertions="13" time="0.65048">
+    <failure type="Test::Unit::AssertionFailedError" message="The title values are equal for 5....">
+The title values are equal for 5.
+&lt;"Sr Mgr Engineering"&gt; expected to be =~
+&lt;/Operational\ Software\/Test\ Engineer/&gt;. (Test::Unit::AssertionFailedError)
+regression.rb:100:in `test_job_by_company_id_9'
+regression.rb:99:in `each'
+regression.rb:99:in `test_job_by_company_id_9'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
