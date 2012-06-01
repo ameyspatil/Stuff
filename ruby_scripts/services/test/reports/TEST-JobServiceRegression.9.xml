@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="0" tests="1" skipped="0" name="JobServiceRegression" assertions="4" time="0.31022" errors="0">
-  <testcase name="test_jobs_by_company_id_16" assertions="4" time="0.309587">
-  </testcase>
-  <system-out>
-  </system-out>
-  <system-err>
-  </system-err>
-</testsuite>

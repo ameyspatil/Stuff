@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite tests="1" failures="0" skipped="0" assertions="6" name="Sendrequest" time="72.164107" errors="0">
-  <testcase assertions="6" name="test_givereferralcheck" time="72.163579">
-  </testcase>
-  <system-out>
-  </system-out>
-  <system-err>
-  </system-err>
-</testsuite>
